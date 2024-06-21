@@ -1,7 +1,15 @@
 import React from "react"
+import Navbar from "./components/Navbar";
+import SecondPage from "./components/SecondPage";
 function App(){
   return(
-    <h2>Hi, Ankit Your Score is {1+1}</h2>
+    <div>
+      <Navbar />
+      <SecondPage />
+      <h2>Hello, World!</h2>
+    </div>
+    
+
   )
 }
 export default App;
