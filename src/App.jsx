@@ -1,14 +1,21 @@
-import React from "react"
-import Navbar from "./components/Navbar"
+// import React from "react"
+// import Navbar from "./components/Navbar"
 
+import axios from "axios";
 
-function App(){
-  return(
+const app =() =>{
+  const getproducts = () =>{
+    const api = "http://fakestoreapi.com/products";
+    axios.get(api).then(products =>{
+      console.log(products);
+    }).catch(err => console.log(err));
+  }
+  return (
     <div>
-      <Navbar />
-      <h2>Hello, World!</h2>
+      <button> click me </button>
     </div>
   )
 }
 
-export default App;
+export default app;
+
