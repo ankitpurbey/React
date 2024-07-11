@@ -1,7 +1,7 @@
-// import React from "react"
+ import React from "react"
 // import Navbar from "./components/Navbar"
-
 import axios from "axios";
+
 
 const app =() =>{
   const getproducts = () =>{
@@ -12,7 +12,7 @@ const app =() =>{
   }
   return (
     <div>
-      <button> click me </button>
+      <button onClick={getproducts}> click me </button>
     </div>
   )
 }
