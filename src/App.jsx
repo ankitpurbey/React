@@ -1,13 +1,14 @@
  import React from 'react'
- import Card from './Card'
+ //import Card from './Card'
  
  
- const App = () => {
+ const  App =()=> {
 
-  const data =["Ankit","Aman", "Amit", "Ankit kumar"]
+  const data =12;
    return (
      <div>
-      <Card/>
+      {data};
+      
      </div>
    )
  }
