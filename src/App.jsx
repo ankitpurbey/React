@@ -1,6 +1,5 @@
  import React from 'react'
- import Navbar from './components/Navbar'
- import SecondPage from './components/SecondPage'
+ import Card from './Card'
  
  
  const App = () => {
@@ -8,7 +7,7 @@
   const data =["Ankit","Aman", "Amit", "Ankit kumar"]
    return (
      <div>
-      <SecondPage/>
+      <Card/>
      </div>
    )
  }
