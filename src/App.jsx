@@ -1,7 +1,7 @@
  import React from 'react'
-import Card2 from './components/Card2';
-import Card3 from './components/Card3';
+
  //import Card from './Card'
+ import Card4 from './Card4';
  
  
  function App(){
@@ -13,7 +13,7 @@ import Card3 from './components/Card3';
     //   </div>))}
     // </div>
 
-    <Card3/>
+    <Card4/>
   )
  }
   
