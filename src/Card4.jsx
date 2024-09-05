@@ -12,7 +12,7 @@ export default function Card4() {
     {data.map((elem,index)=>(<div className='  w-60 px-3 py-4 bg-zinc-100'>
         <h2 className=' font-semibold text-xl rounded-md'>{elem.name}</h2>
         <p className=' text-xs mt-3'>{elem.desc} </p>
-        <button onClick={()=>{alert("Downloaded Successfull")}} className=' px-2 py-2 bg-green-400 text-xs mt-3 rounded-sm'>Download Now</button>
+        <button  onClick={()=>{alert("Downloaded Successfull")}} className=' px-2 py-2 bg-green-400 text-xs mt-3 rounded-sm'>Download Now</button>
     </div>
       ))}
     </div>
