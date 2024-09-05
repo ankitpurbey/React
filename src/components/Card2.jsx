@@ -1,5 +1,5 @@
 
-/* In this Card
+/* In this Card  i had practiced on how to reuse the compnent using map function
 */
 import React from 'react'
 
