@@ -1,8 +1,6 @@
- import React, { useState } from 'react'
+import React, { useState } from 'react'
 
- 
- 
- function App(){
+function App(){
   const [val,setVal] = useState(10);
   
   return(
@@ -12,7 +10,5 @@
    </div>
   )
  }
-  
- 
- export default App
- 
+
+export default useS
