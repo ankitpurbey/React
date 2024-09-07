@@ -1,18 +1,11 @@
- import React, { useState } from 'react'
-
+ import React from 'react'
+ import Card5 from './components/Card5'
  
- 
- function App(){
-  const [val,setVal] = useState([1,2,3,4,5]);
-  
-  return(
-   <div className=' p-5'>
-    {val.map(elem => <h1>{elem}</h1>)}
-    <button onClick={()=> setVal([...val, 8])} className=' px-2 py-1 bg-blue-400 rounded-full text-xs mt-5'> click here!</button>
-   </div>
-  )
+ export default function App() {
+   return (
+     <div>
+       <Card5/>
+     </div>
+   )
  }
-  
- 
- export default App
  
